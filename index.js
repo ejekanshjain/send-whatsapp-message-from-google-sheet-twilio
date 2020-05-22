@@ -36,13 +36,13 @@ app.post('/notify', (req, res) => {
         // to: '8696932715',
         // to: '8696932786',
         body: `
-            Name: ${user_name}\n
-            School Name: ${user_school}\n
-            Grade/Percentage: ${user_grade}\n
-            Mobile Number: ${user_mobile_no}\n
-            Whatsapp Number: ${user_whatsapp_no}\n
-            Email: ${user_email}\n
-            This message was generated from BOT.
+        Name: ${user_name}\n
+        School Name: ${user_school}\n
+        Grade/Percentage: ${user_grade}\n
+        Mobile Number: ${user_mobile_no}\n
+        Whatsapp Number: ${user_whatsapp_no}\n
+        Email: ${user_email}\n
+        This message was generated from BOT.
         `
     })
     res.json({ message: 'Done' })
