@@ -32,9 +32,8 @@ app.post('/notify', (req, res) => {
     console.log(req.body)
     const { user_name, user_school, user_grade, user_mobile_no, user_whatsapp_no, user_email } = req.body
     sendMessage({
-        to: '9530077351',
-        // to: '8696932715',
-        // to: '8696932786',
+        // to: '9530077351',
+        to: '8696932786',
         body: `Techno NJR Admission Enquiry\n\nName: ${user_name}\nSchool Name: ${user_school}\nGrade/Percentage: ${user_grade}\nMobile Number: ${user_mobile_no}\nWhatsapp Number: ${user_whatsapp_no}\nEmail: ${user_email}\n\nThis message was generated from a BOT.`
     })
     res.json({ message: 'Done' })
