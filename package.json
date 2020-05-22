@@ -1,0 +1,27 @@
+{
+    "name": "send-whatsapp-message-from-google-sheet-twilio",
+    "version": "1.0.0",
+    "description": "",
+    "main": "index.js",
+    "scripts": {
+        "start": "node index.js"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/ejekanshjain/send-whatsapp-message-from-google-sheet-twilio.git"
+    },
+    "keywords": [],
+    "author": "",
+    "license": "MIT",
+    "bugs": {
+        "url": "https://github.com/ejekanshjain/send-whatsapp-message-from-google-sheet-twilio/issues"
+    },
+    "homepage": "https://github.com/ejekanshjain/send-whatsapp-message-from-google-sheet-twilio#readme",
+    "dependencies": {
+        "cors": "^2.8.5",
+        "dotenv": "^8.2.0",
+        "express": "^4.17.1",
+        "googleapis": "^51.0.0",
+        "twilio": "^3.43.1"
+    }
+}
