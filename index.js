@@ -29,6 +29,7 @@ app.use(cors())
 app.use(express.json())
 
 app.post('/notify', (req, res) => {
+    console.log(req.body)
     sendMessage({
         to: '9530077351',
         // to: '8696932715',
